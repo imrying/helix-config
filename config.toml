@@ -45,7 +45,7 @@ J="search_prev"
 
 
 [keys.normal.g]
-n="goto_line_start"
+n="goto_next_buffer"
 o="goto_line_end"
 
 [keys.normal.space.w]
@@ -94,3 +94,5 @@ i="scroll_up"
 [keys.normal.Z]
 e="scroll_down"
 i="scroll_up"
+
+
