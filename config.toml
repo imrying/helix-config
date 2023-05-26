@@ -1,4 +1,4 @@
-theme = "gruvbox_dark_hard"
+theme = "gruvbox_dark_hard_transparent"
 
 [editor]
   line-number = "relative"
@@ -45,7 +45,7 @@ J="search_prev"
 
 
 [keys.normal.g]
-n="goto_next_buffer"
+n="goto_line_start"
 o="goto_line_end"
 
 [keys.normal.space.w]
