@@ -10,6 +10,8 @@ theme = "gruvbox_dark_hard_transparent"
   display-messages = true
 
 
+[editor.soft-wrap]
+  enable = true
 
 [editor.indent-guides]
   render = true
@@ -42,6 +44,7 @@ K="move_next_long_word_end"
 
 j="search_next"
 J="search_prev"
+tab="buffer_picker"
 
 
 [keys.normal.g]
@@ -66,8 +69,6 @@ I="keep_selections"
 
 o="jump_view_right"
 
-[keys.insert]
-"A-x" = "normal_mode" # Maps Alt-X to enter normal mode
 
 [keys.select]
 n="move_char_left"
