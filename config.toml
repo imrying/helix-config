@@ -1,4 +1,4 @@
-theme = "gruvbox_dark_hard_transparent"
+theme = "bogster"
 
 [editor]
   line-number = "relative"
@@ -27,6 +27,9 @@ theme = "gruvbox_dark_hard_transparent"
   mode.insert = "INSERT"
   mode.select = "SELECT"
 
+# [editor.file-picker]
+#   git-ignore=false
+
 [keys.normal]
 n="move_char_left"
 e="move_line_down"
@@ -45,6 +48,7 @@ K="move_next_long_word_end"
 j="search_next"
 J="search_prev"
 tab="buffer_picker"
+C-f=[":new", ":insert-output make test"]
 
 
 [keys.normal.g]

@@ -1,1 +1,7 @@
+[[grammar]]
+name = "d"
+source = { git = "https://github.com/gdamore/tree-sitter-d", rev = "9120816fd0852b3797eae3bad7bf2b8a966f7f70" }
 
+[[language]]
+name = "d"
+formatter = { command = "dfmt", args = ["-c", "/home/imrying/work/tagion/"] } 
