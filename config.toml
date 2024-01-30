@@ -1,10 +1,11 @@
-theme = "bogster"
+theme = "autumn"
 
 [editor]
   line-number = "relative"
   auto-pairs = false
   true-color = true
   bufferline = "multiple"
+  auto-info = false
 
 [editor.lsp]
   display-messages = true
@@ -20,8 +21,8 @@ theme = "bogster"
 
 [editor.statusline]
   left = ["mode", "spinner"]
-  center = ["version-control", "file-name"]
-  right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+  center = ["version-control", "file-base-name"]
+  right = ["diagnostics", "selections", "primary-selection-length", "file-encoding", "file-line-ending", "file-type"]
   separator = "│"
   mode.normal = "NORMAL"
   mode.insert = "INSERT"
