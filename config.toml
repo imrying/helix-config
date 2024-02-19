@@ -1,11 +1,10 @@
-theme = "autumn"
+theme = "autumn_night"
 
 [editor]
   line-number = "relative"
   auto-pairs = false
   true-color = true
   bufferline = "multiple"
-  auto-info = false
 
 [editor.lsp]
   display-messages = true
@@ -49,8 +48,6 @@ K="move_next_long_word_end"
 j="search_next"
 J="search_prev"
 tab="buffer_picker"
-C-f=[":new", ":insert-output make test"]
-
 
 [keys.normal.g]
 n="goto_next_buffer"
@@ -100,5 +97,6 @@ i="scroll_up"
 [keys.normal.Z]
 e="scroll_down"
 i="scroll_up"
+
 
 
