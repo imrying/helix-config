@@ -47,7 +47,7 @@ K="move_next_long_word_end"
 
 j="search_next"
 J="search_prev"
-tab="buffer_picker"
+tab="smart_tab"
 
 [keys.normal.g]
 n="goto_next_buffer"
