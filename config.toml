@@ -52,6 +52,7 @@ tab="smart_tab"
 [keys.normal.g]
 n="goto_next_buffer"
 o="goto_line_end"
+c="goto_next_change"
 
 [keys.normal.space.w]
 n="jump_view_left"
